@@ -44,17 +44,44 @@
             width: 0%;
             height: 25px;
             border-radius: 1000px;
+
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: forward;
         }
+        .skill-container li.html::after{
+            animation-name: html;
+        }
+        @keyframes html{
+            to{
+                width: 90%;
+                background-color: orange;
+            }
+        }
+        .skill-container li.css::after{
+            animation-name: css;
+        }
+        @keyframes css{
+            to{
+                width: 90%;
+                background-color: orangered;
+        }
+        }
+
+
+
     </style>
     <body>
         <div class="skill-container">
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>Bootstrap</li>
-                <li>Java</li>
-                <li>C++</li>
+                <li class="html">HTML</li>
+                <li class="css">CSS</li>
+                <li class="js">JS</li>
+                <li class="bs">Bootstrap</li>
+                <li class="java">Java</li>
+                <li class="cplus">C++</li>
             </ul>
         </div>
     </body>
