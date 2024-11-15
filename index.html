@@ -12,11 +12,15 @@
             height: 300px;
             margin: 0 auto;
             transition-property: width;
-            transition-duration: 2s;
+            transition-duration: 0.5s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out;
+
+            transition: width 2s, height 4s;
         }
         .main:hover{
             width: 400px;
-            
+            height: 500px;
         }
     </style>
     <body>
