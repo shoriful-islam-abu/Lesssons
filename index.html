@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html>style creation	f26c697	Mahjabin Alam <natasha.mahjabin@gmail.com>	Nov 15, 2024 at 10:18 PM
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +7,26 @@
     <title>My CSS Table</title>
 </head>    
     <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td{
+            border: 2px solid black;  
+            padding: 5px;
+        }
+        th{
+            background-color: darkgreen;
+            color: white;
+            height: 30px;
+        }
+        tr:nth-child(even){
+            background-color: gray;
+        }
+        tr:hover{
+            background-color: tomato;
+        }
     </style>
     <body>
         <table>
@@ -16,6 +37,41 @@
                 <th>GPA</th>
                 <th>Phone</th>
                 <th>Bio</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Sonia</td>
+                <td>4.6</td>
+                <td>01915600200</td>
+                <td>Elitr diam sadipscing invidunt duo dolores clita ut sit et. Dolor vero tempor.</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Nabila</td>
+                <td>4.7</td>
+                <td>01915600200</td>
+                <td>Elitr diam sadipscing invidunt duo dolores clita ut sit et. Dolor vero tempor.</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Faria</td>
+                <td>4.8</td>
+                <td>01915600200</td>
+                <td>Elitr diam sadipscing invidunt duo dolores clita ut sit et. Dolor vero tempor.</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Farjana</td>
+                <td>4.9</td>
+                <td>01915600200</td>
+                <td>Elitr diam sadipscing invidunt duo dolores clita ut sit et. Dolor vero tempor.</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Fahmida</td>
+                <td>5.00</td>
+                <td>01915600200</td>
+                <td>Elitr diam sadipscing invidunt duo dolores clita ut sit et. Dolor vero tempor.</td>
             </tr>
         </table>
     </body>
