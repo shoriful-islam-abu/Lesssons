@@ -19,3 +19,12 @@
 .nav-heading h1{
     text-align: right;
 }
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
