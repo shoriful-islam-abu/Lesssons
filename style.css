@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: "Fira Sans", sans-serif;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Satisfy", cursive;
+    font-family: "Montserrat", sans-serif; 
+    font-family: "Satisfy", cursive; 
 }
 body{
     margin: 0;
@@ -16,8 +16,37 @@ a{
     font-size: 1.2rem;
     text-decoration: none;
 }
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
 .navbar{
     background-color: #0c6168;
     padding: 1% 7%;
     text-align: center;
+}
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navbar-menu a{
+    background-color: #0c6168;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
 }
