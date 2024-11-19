@@ -14,5 +14,8 @@
 
 /* navbar designing starts here */
 .nav-logo{
-    
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
 }

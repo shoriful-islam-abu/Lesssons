@@ -45,6 +45,9 @@ a{
     margin: 7px 0px;
     padding: 10px;
 }
+.navbar-menu a:hover{
+    background-color: gray;
+}
 .navbar::after{
     content: '';
     display: table;
