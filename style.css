@@ -60,5 +60,19 @@ p{
 /* navbar design ends here */
 
 /* profile design starts from here */
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile .top-weather-icon{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+}
+.profile .top-weather-icon:hover{
+    transform: rotate(360deg);
+}
 
 /* profile design ends here */
