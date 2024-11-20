@@ -23,6 +23,7 @@ a{
 [class*="col-"]{
     width: 100%;
 }
+/* navbar design starts here */
 .navbar{
     background-color: #40868b;
     padding: 1% 7%;
@@ -52,3 +53,4 @@ a{
     display: table;
     clear: both;
 }
+/* navbar design ends here */
