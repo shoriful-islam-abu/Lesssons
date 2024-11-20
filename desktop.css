@@ -28,3 +28,26 @@
     margin: 20px 0;
     background-color: transparent;
 }
+/* navbar design ends here */
+
+/* profile design starts here  */
+.profile .top-weather-icon{
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transfrom 2s;
+}
+.profile .top-weather-icon:hover{
+    width: 140px;
+}
+.profile .bottom-weather-icon{
+    bottom: 20px;
+    left: 140px;
+    width: 120px;
+    transition: width 2s, transfrom 2s;
+}
+.profile .bottom-weather-icon{
+    width: 140px;
+}
+
+/* profile design ends here  */
+

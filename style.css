@@ -63,7 +63,8 @@ p{
 .profile{
     padding: 130px 10px;
     position: relative;
-    text-align: center;
+    text-align: '';
+    
 }
 .profile .top-weather-icon{
     position: absolute;
@@ -74,5 +75,23 @@ p{
 .profile .top-weather-icon:hover{
     transform: rotate(360deg);
 }
-
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+.profile .bottm-weather-icon{
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    transition: transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    transform: rotate(360deg);
+}
 /* profile design ends here */
