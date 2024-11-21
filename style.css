@@ -126,6 +126,12 @@ p{
 .about-me a{
     font-size: 1.2rem;
 }
+.cv-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
 .about-me::after{
     clear: both;
     display: table;
