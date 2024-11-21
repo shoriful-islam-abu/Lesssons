@@ -52,3 +52,17 @@
 
 /* profile design ends here  */
 
+
+/* about me design starts here */
+.aboutme-image{
+    margin-top: 100px;
+}
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+/* about me design ends here */
+
