@@ -23,6 +23,12 @@ p{
     font-size: 1.2rem;
     text-align: justify;
 }
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
 [class*="col-"]{
     float: left;
     padding: 10px;
@@ -103,6 +109,25 @@ p{
 /* about me design starts here */
 .about-me{
     background-color: #39a4ac;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+.about-me p{
+    text-align: center;
+}
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
 
 /* about me design ends here */
