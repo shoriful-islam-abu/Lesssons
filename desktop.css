@@ -46,7 +46,7 @@
     width: 120px;
     transition: width 2s, transfrom 2s;
 }
-.profile .bottom-weather-icon{
+.profile .bottom-weather-icon:hover{
     width: 140px;
 }
 
