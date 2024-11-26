@@ -148,5 +148,15 @@ p{
     content: '';
 }
 
-
 /* about me design ends here */
+
+/* professional experience start here */
+.professional-experience{
+    padding: 1% 0%;
+}
+.professional-experience .card{
+    background-color: #a39e9e;
+}
+
+
+/* professional experience ends here */
