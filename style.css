@@ -154,7 +154,7 @@ p{
     background-color: #a39e9e;
     padding: 10px;
     transition: 0.3s;
-    height: 700px;
+    /* height: 700px; */
 }
 .card:hover{
     box-shadow: 0 4px 8px 5px black; 
