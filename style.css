@@ -303,3 +303,29 @@ p{
     content: '';
 }
 /* professional experience ends here */
+
+/* achievement-contuct starts from here */
+.achievement-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
+}
+.achievement-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+/* achievement-contuct ends from here */
+
+
+
+
+
+
+
+
+
+
+
