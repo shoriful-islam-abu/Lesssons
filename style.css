@@ -155,6 +155,8 @@ p{
     padding: 10px;
     transition: 0.3s;
     /* height: 700px; */
+    height: 725px;
+    
 }
 .card:hover{
     box-shadow: 0 4px 8px 5px black; 
