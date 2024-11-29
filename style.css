@@ -353,7 +353,21 @@ background-color: gray;
 /* achievement-contuct ends from here */
 
 /* footer starts from here */
-
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-menu a{
+    display: block;
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
 /* footer ends here */
 
 
