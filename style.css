@@ -327,6 +327,22 @@ p{
     margin: 10px;
     width: 100px;
 }
+.contact-links{
+    text-align: center;
+}
+.media-buttons .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+.btn:hover{
+background-color: gray;
+}
 .achievement-contact::after{
     clear: both;
     display: table;

@@ -77,7 +77,16 @@
 .contact button{
     width: 150px;
 }
-
+.contact-links{
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    margin-top: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}    
 /* achievement-contuct ends from here *
 
 
