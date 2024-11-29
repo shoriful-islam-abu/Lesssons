@@ -175,17 +175,36 @@ p{
     border-radius: 50%;
     padding: 15px;
 }
-.professional-experience::after{
-    clear: both;
-    display: table;
-    content: '';
-}
 .card-title h2{
     background-color: #616161;
     color: white;
     padding: 10px;
     text-align: center;
 }
+.skills.container{
+    padding: 45px;
+}
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.skills-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    height: 10px;
+    background-color: rgb(86,86,153,.5);
+}
+.professional-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
 
 
 /* professional experience ends here */
