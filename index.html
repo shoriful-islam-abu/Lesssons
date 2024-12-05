@@ -3,46 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width: initial-scale=1.0">
-    <title>Spicy King</title>
+    <title>Shoriful Islam</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->  
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
+
+    
+    <!-- css for mobile -->
     <link rel="stylesheet" href="style.css">
 
-</head>
-<style></style>  
-<body>
-    <div class="container">
-        <!-- header starts -->
-        <header>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="logo-div">
-                        <a href="#">
-                            <i class="logo fas fa-utensils fa-3x"></i> 
-                        </a>
-                    </div>
+    <!-- css for desktop -->
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+</head>    
+    <style>
+
+    </style>
+    <body>
+        <!-- navbar starts from here -->
+        <div class="navbar">
+            <div class="nav-logo col-2">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="nav-heading col-4">
+                <h1>Shoriful Islam</h1>
+            </div>
+            <div class="navbar-menu col-6">
+                <a href="#">Home</a>
+                <a href="#about-me-id">About ME</a>
+                <a href="#skill-id">Skill</a>
+                <a href="#contact-id">Contact Me</a>
+            </div>
+        </div> 
+        <!-- navbar end here --> 
+        
+        <!-- profile starts from here -->
+        <div class="profile">
+            <img class="top-weather-icon" src="images/cloud.png" alt="top weather icon">
+                <div class="profile-desc">
+                    <h1>I am a Network Engineer <br> & <br> Web Developer</h1>
+                    <p>Hi! My name is Shoriful Islam. Welcome to my personal page that I've designed to shocase my skills and experties that I've accumulated over the year. </p>
+                </div>
+            <img class="bottom-weather-icon" src="images/cloud.png" alt="bottom weather icon">
+        </div>        
+         <!-- profile ends here -->
+
+         <!-- about me starts here -->
+        <div class="about-me" id="about-me-id">
+            <h2>ABOUT ME</h2>
+            <hr class="dotted-hr">
+            <div class="aboutme-image col-6">
+                <img src="images/img2.jpeg" alt="">
+            </div>
+            <div class="aboutme-desc col-6">
+                <P>I like to call myself "a passionate Network Engineer & Web Developer". </P>
+                <p>I made lot of videos on different subjects. My first priority is making the subjects more interesting and give you a clear understanding so you can fell it and don't get bore. </p>
+
+                <hr class="aboutme-hr">
+                <p>Name: Shoriful Islam</p>
+                <hr class="about-me-hr">
+                <p>Address: Tokyo, Japan</p>
+                <hr class="aboutme-hr">
+                <p>Email: <a href="mailto:shoriful.islam.abu@gmail.com">shoriful.islam.abu.com</a> </p>
+                <hr class="aboutme-hr">
+                <p>Phone: <a href="tel:+817084942151">+817084942151</a> </p>
+                <hr class="aboutme-hr">
+                <p>Website:<a href="https://linkedin.com"> linkedin.com/in/shoriful-islam-abu </a></p> 
+                <hr class="aboutme-hr">
+                <p>Website:<a href="https://shoriful-islam-abu.github.io/new_resume/" target="blank"> https://shoriful-islam-abu.github.io/new_resume/ </a> </p>
+                <hr class="aboutme-hr">
+                <p>
+                    <a href="https://www.dropbox.com/home?preview=md+shoriful+islam+resume.pdf" target="blank" download="">
+                       <button class="cv-button">Download CV</button>
+                    </a>    
+                </p>
+
+            </div>
+
+        </div>
+
+          <!-- about me ends here -->
+          <!-- professional experience start here  -->
+        <div class="professional-experience">
+            <div class="work-experience col-4">
+                <div class="card">
                     
+                    <div class="card-icon">
+                        <img class="rounded-img" src="images/cloud.png" alt="work icon">
+                    </div>
+                    <div class="card-title">
+                    <h2>WORK EXPERIENCE</h2>
+
+                    </div>
+                        <div class="card-desc">
+                            <ol>
+                                <li>
+                                    <strong>Data Center Operation Engineer</strong><br>
+                                    01/03/2024-31/05/2024 <br>
+                                    Zainas, Japan <br>
+                                    Dispatched at Rakuten Kiba Lab <br>
+                                </li>
+                                <hr>
+                                <li>
+                                    <strong>Associate Engineer</strong> <br>
+                                    01/06/2023-31/08/2023 <br>
+                                    SystemsGo, Japan <br>
+                                    Azabudai, Roppongi, Japan <br>
+                                </li>
+                                <hr>
+                                <li>
+                                    <strong>Technical Support Engineer</strong> <br>
+                                    01/12/2016-30/09/2022 <br>
+                                    Aspark Co. Ltd. <br>
+                                    Shinagawa, Tokyo, Japan <br>
+                                </li>
+                                <hr>
+                                <li>
+                                    <strong>Onsite Network Support Engineer</strong> <br>
+                                    01/10/2013-30/06/2016 <br>
+                                    Kowa Net Services Co. Ltd. <br>
+                                    Toyashi, Shaitama-ken, Japan <br>
+                                </li>
+                            </ol>
+                
+                        </div>  
                 </div>
             </div>
-            <div class="col-lg-8">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#menu-section">Food Menu</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- header ends -->
-    <main>
-        main
-    </main>
-    <footer>
-        footer
-    </footer>
-    </div>
-</body>  
 
+                <div class="education col-4">
+                    <div class="card">
+                            <div class="card-icon">
+                                <img class="rounded-img" src="images/logo.png" alt="work icon">
+                            </div>
+                            <div class="card-title">
+                                <h2>EDUCATION</h2>
+                            </div>
+                                <div class="card-desc">
+                                    <ol>
+                                        <li>
+                                            <strong>Bachelor of Science</strong><br>
+                                            Session: 01/01/2008-31/12/2011 <br>
+                                            Electrical & Electronic Engineering <br>
+                                            Atish Dipankar University of Science and
+                                            Technology, <br>
+                                            Dhaka, Bangladesh.<br>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <strong>SKILLS</strong> <br>
+                                            Cisco-CCNA, VLAN, VPN, DNS, TCP/IP Networking, <br>
+                                            Ticketing system, Active Directory, Power Shell <br>
+                                            EC2/S3 configuration, hosting, Elastic Load Balancer (ELB)<br>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <strong>COMMUNICATION SKILLS</strong> <br>
+                                            Japanese: Professional <br>
+                                            English: Professional <br>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <strong>CERTIFICATION</strong> <br>
+                                            CCNA: Cisco Certified Network <br>
+                                            Associate, Certification ID No: <br>
+                                            CSCO12358126, (Apr 5, 2013) <br>
+                                        </li>
+                                    </ol>
+                                </div>
+                    </div>
+            
+
+                </div>
+
+                <div class="skills col-4" id="skill-id">
+                    <div class="card">
+                        <div class="card-icon">
+                            <img class="rounded-img" src="images/img2.jpeg" alt="work icon">
+                        </div>
+                        <div class="card-title">
+                            <h2>SKILLS</h2>
+                        </div>
+                            <div class="card-desc">
+                                <div class="skills-container">
+                                    <ul>
+                                        <li class="html">HTML</li>
+                                        <li class="css">CSS</li>
+                                        <li class="bootstrap">BOOTSTRAP</li>
+                                        <li class="js">JAVASCRIPT</li>
+                                        <li class="jquery">JQUERY</li>
+                                        <li class="node">NODE.JS</li>
+                                        <li class="express">EXPREES.JS</li>
+                                        <li class="git">GITHUB</li>
+                                        <li class="react">REACT.JS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- professional experience ends here  -->
+
+        <!-- achievement-contuct starts from here -->
+        <div class="achievement-contact">
+            <div class="achievement col-4">
+                <h2>ACHIEVEMENTS</h2>
+                <hr class="dotted-hr">
+                <p>1.CCNA:Cisco Certified Network Associate,Certification ID No:CSCO12358126,(Apr 5, 2013)</p>
+                <p>2. 3+ years of experience in Linux and  virtualization technologies and ISP Setupwith Linux</p>
+                <p>3. 3+ Monitoring Data Center Server operations and equipment maintenance</p>
+                <p>4. Systematically setup server and network peripherals in a professional setting like NTT Docomo,Softbank,KDDI,Tokyo Data center</p>
+            </div>
+            <div class="contact col-4" id="contact-id">
+                <h2>CONTUCT ME</h2>
+                <hr class="dotted-hr">
+                <form action="mailto:shoriful.islam.abu@gmail.com" method="post" enctype="text/plain">
+                    <p><input type="text" placeholder="Your Name" name="Name"></p>
+                    <p><input type="email" placeholder="Your Email" name="email"></p>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+                    <button type="submit">SEND</button>
+                    <button type="reset">RESET</button>
+                </form>
+            </div>
+            <div class="contact-links col-4">
+                <h2>More Ways to Contact</h2>
+                <hr class="dotted-hr">
+                <div class="media-buttons">
+                    <button class="btn" onclick="window.open('http://www.youtube.com/c/anisulislamrubel')" class="request-callback"><i class="fa fa-youtube-play" style="color: #c4302b;" aria-hidden="true"></i></button>
+                    <button class="btn" onclick="window.open('https://www.facebook.com/abu.hena.77/')" class="request-callback"><i class="fa fa-facebook" style="color: darkcyan;"  aria-hidden="true"></i></button>
+                    <button class="btn" onclick="window.open('https://join.skype.com/invite/uDoHWLuGbj7P')" class="request-callback"><i class="fa fa-skype" style="color: blue;" aria-hidden="true"></i></button>
+                    <button class="btn" class="btn" onclick="window.open('https://www.linkedin.com/in/shoriful-islam-abu/')" class="request-callback"><i class="fa fa-linkedin" style="color: blueviolet;"  aria-hidden="true"></i></button>
+                    <button class="btn"><i class="fa fa-headphones" style="color: black;" aria-hidden="true"></i></button>
+                    <button class="btn"><i class="fa fa-google" style="color: red;" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- achievement-contuct ends from here -->
+
+        <!-- footer starts from here  -->
+        <div class="footer">
+                <div class="footer-menu col-6">
+                    <a href="#">Home</a>
+                    <a href="#about-me-id">About Me</a>
+                    <a href="#skill-id">Skill</a>
+                    <a href="#contact-id">Contact Me</a>
+                </div>
+                <div class="footer-desc col-6">
+                    <h3>&copy; Shorif 2024. Developed with <span style="color: red; font-size: 1.5rem;">💝</span> by Shorif.</h3>
+                </div>
+        </div>
+        <!-- footer  ends here  -->
+    </body>
 </html>
+
+index.html
+Displaying index.html.
