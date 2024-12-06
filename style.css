@@ -80,10 +80,33 @@ nav ul li a:hover{
     margin: 15px auto;
     font-size: 3rem;
     background: rgba(255,255,0,0.884);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
     font-family: "Handlee", cursive;
-}     
+}
+.banner-contents p{
+    width: 300px;
+    margin: 15px auto;
+    background: rgb(0,128,0);
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.btn{
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0,128,0);
+    text-transform: uppercase;
+    color: white;
+    transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
 /* banner ends  */
 
 
