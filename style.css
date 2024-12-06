@@ -62,6 +62,31 @@ nav ul li a:hover{
     background-color: rgba(0,0,0,0.5);
 }
 /* header ends */
+
+/* banner starts */
+
+#banner-section{
+    background-image: url("images/banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-contents{
+    padding: 50px 10px;
+    text-align: center;
+}
+.banner-contents h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: rgba(255,255,0,0.884);
+    border-radius: 10px;
+    padding: 10px;
+}     
+/* banner ends  */
+
+
+
 /* small devices (portrait tablets and large phone, 576px and up) */
 @media (min-width: 576px) {
     .col-sm-1 {
