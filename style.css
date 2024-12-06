@@ -66,7 +66,7 @@ nav ul li a:hover{
 /* banner starts */
 
 #banner-section{
-    background-image: url("images/banarkings.jpg");
+    background-image: url("images/kingrestaurent.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,8 @@ nav ul li a:hover{
     width: 100%;
     margin: 15px auto;
     font-size: 3rem;
-    background: rgba(255,255,0,0.884);
+    background: coral;
+    color: white;
     border-radius: 5px;
     padding: 10px;
     font-family: "Handlee", cursive;
@@ -87,7 +88,7 @@ nav ul li a:hover{
 .banner-contents p{
     width: 300px;
     margin: 15px auto;
-    background: rgb(0,128,0);
+    background: tomato;
     color: white;
     padding: 10px;
     font-size: 1.5rem;
@@ -99,7 +100,7 @@ nav ul li a:hover{
     font-size: 1.3rem;
     border: none;
     border-radius: 5px;
-    background: rgb(0,128,0);
+    background: tomato;
     text-transform: uppercase;
     color: white;
     transition: .4s;
