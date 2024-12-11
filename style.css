@@ -161,6 +161,12 @@ nav ul li a:hover{
 }
 /* food menu  ends  */
 
+/* contact starts */
+#contact{
+    padding: 1%;
+    background: #595b83;
+}
+/* contact ends */
 /* small devices (portrait tablets and large phone, 576px and up) */
 @media (min-width: 576px) {
     .col-sm-1 {
