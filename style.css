@@ -191,6 +191,20 @@ footer{
     font-size: 0.8rem;
     text-align: center;
 }
+.social-menu{
+    text-align: center;
+}
+.icon-style{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center;
+}
 /* footer ends */
 /* small devices (portrait tablets and large phone, 576px and up) */
 @media (min-width: 576px) {
