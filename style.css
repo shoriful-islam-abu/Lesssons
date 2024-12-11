@@ -125,11 +125,29 @@ nav ul li a:hover{
     font-size: 0.8rem;
     margin-bottom: 10px;
 }
-
-
 /* about ends */
 
-
+/* food menu  starts  */
+#menu-section{
+    padding: 1%;
+}
+.card-body{
+    text-align: center;
+}
+.card-body img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.item-desc{
+    background: rgb(165,164,164);
+}
+.item-name{
+    background: tomato;
+    color: white;
+    padding: 10px;
+}
+/* food menu  ends  */
 
 /* small devices (portrait tablets and large phone, 576px and up) */
 @media (min-width: 576px) {
