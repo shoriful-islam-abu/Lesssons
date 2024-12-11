@@ -179,6 +179,19 @@ nav ul li a:hover{
     font-size: 0.8rem;
 }
 /* contact ends */
+
+/* footer starts */
+footer{
+    padding: 1%;
+    color: white;
+    background: #060930;
+}
+footer{
+    line-height: 32px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+/* footer ends */
 /* small devices (portrait tablets and large phone, 576px and up) */
 @media (min-width: 576px) {
     .col-sm-1 {
