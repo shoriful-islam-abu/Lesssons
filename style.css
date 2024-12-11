@@ -144,7 +144,7 @@ nav ul li a:hover{
     color: black;
 }
 .item-name{
-    background: teal;
+    background: coral;
     color: white;
     padding: 10px;
 }
@@ -290,6 +290,28 @@ footer{
 }
 /* large devices (portrait tablets and large phone, 992px and up) */
 @media (min-width: 992px) {
+    .logo-div{
+        text-align: left;
+    }
+    nav ul{
+        text-align: right;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a{
+        display: inline-block;
+        transition: .4s;
+    }
+    nav ul li a:hover{
+        background-color: transparent;
+    }
+    nav ul li a:hover{
+        background-color: transparent;
+        transform: scale(1.2);
+        text-decoration: underline;
+        border-radius: 0;
+    }
     .col-lg-1 {
         width: 8.33%;
     }
