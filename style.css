@@ -141,11 +141,23 @@ nav ul li a:hover{
 }
 .item-desc{
     background: rgb(165,164,164);
+    color: black;
 }
 .item-name{
-    background: tomato;
+    background: teal;
     color: white;
     padding: 10px;
+}
+.item-desc > p {
+    font-size: 0.8rem;
+    padding: 10px;
+    font-weight: bold;
+}
+.card{
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 /* food menu  ends  */
 
