@@ -205,6 +205,10 @@ footer{
     transition: .4s;
     text-align: center;
 }
+.icon-style:hover{
+    background-color: grey;
+    transform: scale(1.2);
+}
 /* footer ends */
 /* small devices (portrait tablets and large phone, 576px and up) */
 @media (min-width: 576px) {
